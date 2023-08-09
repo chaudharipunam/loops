@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+	int i,n;
+	float s;
+	printf("enter the no.: ");
+	scanf("%d",&n);
+	for (int i=0; i<=n; i++){
+		float s=s+1/i;
+	}
+	printf("%f",s);
+	return 0;
+}
+
+
